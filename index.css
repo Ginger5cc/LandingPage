@@ -1,0 +1,132 @@
+body {
+
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.wrapperBg {
+    width: 100%;
+}
+
+.wrapper {
+    max-width: 1024px;
+    min-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top,.main {
+    background-color: #1F2937;
+}
+
+.info1 {
+    background-color: #F9FAF8;
+}
+
+.topBar {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items:last baseline;
+    background-color: #1F2937;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    color: #F9FAF8;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.topLeft {
+    margin-left: 24px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    font-size: 20px; 
+    font-weight: 900;
+    color: #F9FAF8
+}
+
+.topRight {
+    display: flex;
+    flex-direction: row;
+    margin-right: 24px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    font-size: 18px;
+    
+}
+
+.topLink {
+    margin-left: 24px;
+}
+
+.mainArea{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 400px;
+    background-color: #1F2937;
+}
+
+.mainLeft {
+    flex-direction: column;
+    display: flex;
+    margin-left: 24px;
+    height: 200px;
+    margin-right: 50px;
+}
+
+.mainText {
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+    margin-bottom: 5px;
+}
+
+.secondaryText {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 15px;
+}
+
+.mainRight {
+    margin-right: 24px;
+    background-color: gray;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    width: 80%;
+    max-width: 400px;
+}
+
+.infoArea1 {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    height: 400px;
+    background-color: #F9FAF8;
+}
+
+.infoHeader {
+    font-weight: 900;
+    font-size: 36px;
+}
